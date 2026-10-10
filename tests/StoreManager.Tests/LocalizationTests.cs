@@ -19,6 +19,14 @@ public class LocalizationTests
     }
 
     [Fact]
+    public void No_plain_key_is_also_the_parent_of_a_dotted_key()
+    {
+        // PRI rejects "Foo" and "Foo.Text" together ("defined as both resource and scope").
+        var clashes = En.Keys.Where(k => !k.Contains('.') && En.Keys.Any(o => o.StartsWith(k + "."))).ToList();
+        Assert.True(clashes.Count == 0, "Resource name clashes: " + string.Join(", ", clashes));
+    }
+
+    [Fact]
     public void No_translation_is_blank()
     {
         Assert.All(En, kv => Assert.False(string.IsNullOrWhiteSpace(kv.Value), $"English '{kv.Key}' is blank"));

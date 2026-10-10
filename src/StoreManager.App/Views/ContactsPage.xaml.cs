@@ -95,7 +95,7 @@ public sealed partial class ContactsPage : Page, INewItemPage, IRefreshablePage
             flyout.Items.Add(item);
         }
         if (flyout.Items.Count == 0)
-            flyout.Items.Add(new MenuFlyoutItem { Text = _loc.Get("Tags_Empty"), IsEnabled = false });
+            flyout.Items.Add(new MenuFlyoutItem { Text = _loc.Get("Tags_NoTags"), IsEnabled = false });
     }
 
     // ---------- navigation ----------

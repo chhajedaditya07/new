@@ -52,7 +52,7 @@ public sealed partial class MainWindow : Window
     {
         var item = Nav.MenuItems.Concat(Nav.FooterMenuItems).OfType<NavigationViewItem>().FirstOrDefault(i => (string)i.Tag == tag);
         if (item is null) return;
-        if (Nav.SelectedItem == item) return;
+        if (ReferenceEquals(Nav.SelectedItem, item)) return;
         Nav.SelectedItem = item;          // triggers SelectionChanged
     }
 

@@ -47,7 +47,7 @@
   <data name="Tags_Save.Content" xml:space="preserve"><value>Save</value></data>
   <data name="Tags_Merge.Content" xml:space="preserve"><value>Merge…</value></data>
   <data name="Tags_Delete.Content" xml:space="preserve"><value>Delete</value></data>
-  <data name="Tags_Empty" xml:space="preserve"><value>No tags yet. Add your first tag above.</value></data>
+  <data name="Tags_NoTags" xml:space="preserve"><value>No tags yet</value></data>
   <data name="Tags_Empty.Text" xml:space="preserve"><value>No tags yet. Add your first tag above.</value></data>
   <data name="Contacts_Title.Text" xml:space="preserve"><value>Contacts</value></data>
   <data name="Contacts_Import.Content" xml:space="preserve"><value>Import</value></data>
