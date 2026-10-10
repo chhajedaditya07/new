@@ -85,4 +85,5 @@ On a Windows PC with the published build:
 - Contact **photo** field exists in the data model but there is no picker yet.
 - The contact profile **timeline** and **balance** are placeholders until Tasks/Follow-ups/Payments/Fall-Pico exist.
 - Global search (`Ctrl+K`), notifications, the system-tray icon, PIN login and backups are later steps.
-- The WinUI screens have not been seen on a real display by the author of this step; they are compiled and the logic behind them is unit-tested, but visual polish needs your eyes.
+- **Verified automatically on every push** (GitHub Actions, Windows): the whole solution including the XAML compiles, all 155 tests pass, and the published app starts on a clean machine, stays running, creates its database and writes no error log.
+- **Not verified by anyone yet**: how the screens actually look and feel on a real display (layout at 1366×768 and 125–150% scaling, touch, colours), and whether switching to Hindi renders correctly on a device. The Hindi text itself is a first draft and should be reviewed by someone at the store.
