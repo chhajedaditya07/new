@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches: [ "claude/**", main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Restore
+        run: dotnet restore StoreManager.sln
+
+      - name: Build (includes the WinUI app and its XAML)
+        run: dotnet build StoreManager.sln -c Release --no-restore
+
+      - name: Test
+        run: dotnet test tests/StoreManager.Tests -c Release --no-build --logger "trx;LogFileName=results.trx"
+
+      - name: Publish self-contained app
+        run: dotnet publish src/StoreManager.App -c Release -r win-x64 --self-contained -o publish/StoreManager
+
+      - name: Upload app (unzip and run StoreManager.exe)
+        uses: actions/upload-artifact@v4
+        with:
+          name: StoreManager-win-x64
+          path: publish/StoreManager
+          retention-days: 14
+
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: "**/results.trx"

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="Nav_Dashboard.Content" xml:space="preserve"><value>Dashboard</value></data>
+  <data name="Nav_Dashboard.ToolTipService.ToolTip" xml:space="preserve"><value>Dashboard (Ctrl+1)</value></data>
+  <data name="Nav_Tasks.Content" xml:space="preserve"><value>Tasks</value></data>
+  <data name="Nav_Tasks.ToolTipService.ToolTip" xml:space="preserve"><value>Tasks (Ctrl+2)</value></data>
+  <data name="Nav_FollowUps.Content" xml:space="preserve"><value>Follow-ups</value></data>
+  <data name="Nav_FollowUps.ToolTipService.ToolTip" xml:space="preserve"><value>Follow-ups (Ctrl+3)</value></data>
+  <data name="Nav_Contacts.Content" xml:space="preserve"><value>Contacts</value></data>
+  <data name="Nav_Contacts.ToolTipService.ToolTip" xml:space="preserve"><value>Contacts (Ctrl+4)</value></data>
+  <data name="Nav_Payments.Content" xml:space="preserve"><value>Payments</value></data>
+  <data name="Nav_Payments.ToolTipService.ToolTip" xml:space="preserve"><value>Payments (Ctrl+5)</value></data>
+  <data name="Nav_FallPico.Content" xml:space="preserve"><value>Fall-Pico</value></data>
+  <data name="Nav_FallPico.ToolTipService.ToolTip" xml:space="preserve"><value>Fall-Pico (Ctrl+6)</value></data>
+  <data name="Nav_Reports.Content" xml:space="preserve"><value>Reports</value></data>
+  <data name="Nav_Reports.ToolTipService.ToolTip" xml:space="preserve"><value>Reports (Ctrl+7)</value></data>
+  <data name="Nav_Settings.Content" xml:space="preserve"><value>Settings</value></data>
+  <data name="Nav_Settings.ToolTipService.ToolTip" xml:space="preserve"><value>Settings (Ctrl+8)</value></data>
+  <data name="Dashboard_Note.Text" xml:space="preserve"><value>This is your home screen. The full "Today" view with tasks, follow-ups, payments and fall-pico jobs arrives in the next build steps.</value></data>
+  <data name="Dashboard_QuickContact.Content" xml:space="preserve"><value>+ New contact</value></data>
+  <data name="Dashboard_OpenContacts.Content" xml:space="preserve"><value>Open contacts</value></data>
+  <data name="Dashboard_ContactsCard.Text" xml:space="preserve"><value>Contacts</value></data>
+  <data name="Dashboard_Welcome" xml:space="preserve"><value>Welcome</value></data>
+  <data name="Dashboard_WelcomeStore" xml:space="preserve"><value>Welcome to {0}</value></data>
+  <data name="Settings_Title.Text" xml:space="preserve"><value>Settings</value></data>
+  <data name="Settings_StoreName.Header" xml:space="preserve"><value>Store name</value></data>
+  <data name="Settings_Theme.Header" xml:space="preserve"><value>Theme</value></data>
+  <data name="Settings_Language.Header" xml:space="preserve"><value>Language</value></data>
+  <data name="Settings_RestartInfo.Message" xml:space="preserve"><value>Close and reopen the app to change the language.</value></data>
+  <data name="Settings_DemoHeader.Text" xml:space="preserve"><value>Demo data</value></data>
+  <data name="Settings_DemoNote.Text" xml:space="preserve"><value>Sample customers, suppliers and karigars for practice. Removing demo data never touches your real contacts.</value></data>
+  <data name="Settings_LoadDemo.Content" xml:space="preserve"><value>Load demo data</value></data>
+  <data name="Settings_RemoveDemo.Content" xml:space="preserve"><value>Remove demo data</value></data>
+  <data name="Settings_DataFolder.Text" xml:space="preserve"><value>Data folder</value></data>
+  <data name="Theme_System" xml:space="preserve"><value>Use system setting</value></data>
+  <data name="Theme_Light" xml:space="preserve"><value>Light</value></data>
+  <data name="Theme_Dark" xml:space="preserve"><value>Dark</value></data>
+  <data name="Tags_Back.ToolTipService.ToolTip" xml:space="preserve"><value>Back to contacts</value></data>
+  <data name="Tags_Title.Text" xml:space="preserve"><value>Manage tags</value></data>
+  <data name="Tags_NewHeader.Text" xml:space="preserve"><value>New tag</value></data>
+  <data name="Tags_NewName.PlaceholderText" xml:space="preserve"><value>Tag name, e.g. VIP</value></data>
+  <data name="Tags_Add.Content" xml:space="preserve"><value>Add tag</value></data>
+  <data name="Tags_Save.Content" xml:space="preserve"><value>Save</value></data>
+  <data name="Tags_Merge.Content" xml:space="preserve"><value>Merge…</value></data>
+  <data name="Tags_Delete.Content" xml:space="preserve"><value>Delete</value></data>
+  <data name="Tags_Empty" xml:space="preserve"><value>No tags yet. Add your first tag above.</value></data>
+  <data name="Tags_Empty.Text" xml:space="preserve"><value>No tags yet. Add your first tag above.</value></data>
+  <data name="Contacts_Title.Text" xml:space="preserve"><value>Contacts</value></data>
+  <data name="Contacts_Import.Content" xml:space="preserve"><value>Import</value></data>
+  <data name="Contacts_Export.Content" xml:space="preserve"><value>Export to Excel</value></data>
+  <data name="Contacts_ManageTags.Content" xml:space="preserve"><value>Manage tags</value></data>
+  <data name="Contacts_New.Content" xml:space="preserve"><value>+ New contact</value></data>
+  <data name="Contacts_New.ToolTipService.ToolTip" xml:space="preserve"><value>New contact (Ctrl+N)</value></data>
+  <data name="Contacts_Search.PlaceholderText" xml:space="preserve"><value>Search name, city or mobile</value></data>
+  <data name="Filter_MatchMode.Header" xml:space="preserve"><value>Tag match</value></data>
+  <data name="Filter_MatchMode.OnContent" xml:space="preserve"><value>All selected tags</value></data>
+  <data name="Filter_MatchMode.OffContent" xml:space="preserve"><value>Any selected tag</value></data>
+  <data name="Filter_Clear.Content" xml:space="preserve"><value>Clear filters</value></data>
+  <data name="Bulk_AddTag.Content" xml:space="preserve"><value>Add tag</value></data>
+  <data name="Bulk_RemoveTag.Content" xml:space="preserve"><value>Remove tag</value></data>
+  <data name="Bulk_Delete.Content" xml:space="preserve"><value>Delete</value></data>
+  <data name="Bulk_Clear.Content" xml:space="preserve"><value>Clear selection</value></data>
+  <data name="Col_Name.Text" xml:space="preserve"><value>Name</value></data>
+  <data name="Col_Mobile.Text" xml:space="preserve"><value>Mobile</value></data>
+  <data name="Col_Type.Text" xml:space="preserve"><value>Type</value></data>
+  <data name="Col_City.Text" xml:space="preserve"><value>City</value></data>
+  <data name="Col_Tags.Text" xml:space="preserve"><value>Tags</value></data>
+  <data name="Empty_Title.Text" xml:space="preserve"><value>No contacts yet</value></data>
+  <data name="Empty_Body.Text" xml:space="preserve"><value>Add your first customer, supplier or karigar. You can also import a list from Excel.</value></data>
+  <data name="Empty_Add.Content" xml:space="preserve"><value>Add your first contact</value></data>
+  <data name="Empty_Demo.Content" xml:space="preserve"><value>or load demo data to look around</value></data>
+  <data name="NoMatch_Title.Text" xml:space="preserve"><value>No contacts match these filters</value></data>
+  <data name="Panel_Close.ToolTipService.ToolTip" xml:space="preserve"><value>Close (Esc)</value></data>
+  <data name="Panel_Call.Text" xml:space="preserve"><value>Copy number</value></data>
+  <data name="Panel_WhatsApp.Text" xml:space="preserve"><value>WhatsApp</value></data>
+  <data name="Panel_CopyAddress.Text" xml:space="preserve"><value>Copy address</value></data>
+  <data name="Field_Mobile.Text" xml:space="preserve"><value>Mobile</value></data>
+  <data name="Field_WhatsApp.Text" xml:space="preserve"><value>WhatsApp</value></data>
+  <data name="Field_AltPhone.Text" xml:space="preserve"><value>Alternate number</value></data>
+  <data name="Field_City.Text" xml:space="preserve"><value>City / area</value></data>
+  <data name="Field_Address.Text" xml:space="preserve"><value>Address</value></data>
+  <data name="Field_Gstin.Text" xml:space="preserve"><value>GSTIN</value></data>
+  <data name="Field_Birthday.Text" xml:space="preserve"><value>Birthday</value></data>
+  <data name="Field_Anniversary.Text" xml:space="preserve"><value>Anniversary</value></data>
+  <data name="Field_Notes.Text" xml:space="preserve"><value>Notes</value></data>
+  <data name="Panel_TimelineTitle.Text" xml:space="preserve"><value>Activity timeline</value></data>
+  <data name="Panel_TimelineNote.Text" xml:space="preserve"><value>Tasks, follow-ups, payments and fall-pico jobs for this contact will appear here as those modules are added.</value></data>
+  <data name="Field_Type.Header" xml:space="preserve"><value>Type</value></data>
+  <data name="Field_Name.Header" xml:space="preserve"><value>Name *</value></data>
+  <data name="Field_MobileInput.Header" xml:space="preserve"><value>Mobile *</value></data>
+  <data name="Field_MobileInput.PlaceholderText" xml:space="preserve"><value>+91 98765 43210</value></data>
+  <data name="Field_WhatsAppInput.Header" xml:space="preserve"><value>WhatsApp (if different)</value></data>
+  <data name="Field_WhatsAppInput.PlaceholderText" xml:space="preserve"><value>Same as mobile</value></data>
+  <data name="Field_AltPhoneInput.Header" xml:space="preserve"><value>Alternate number</value></data>
+  <data name="Field_CityInput.Header" xml:space="preserve"><value>City / area</value></data>
+  <data name="Field_AddressInput.Header" xml:space="preserve"><value>Address</value></data>
+  <data name="Field_GstinInput.Header" xml:space="preserve"><value>GSTIN</value></data>
+  <data name="Field_Birthday_Input.Header" xml:space="preserve"><value>Birthday</value></data>
+  <data name="Field_Birthday_Input.PlaceholderText" xml:space="preserve"><value>DD-MM-YYYY</value></data>
+  <data name="Field_Anniversary_Input.Header" xml:space="preserve"><value>Anniversary</value></data>
+  <data name="Field_Anniversary_Input.PlaceholderText" xml:space="preserve"><value>DD-MM-YYYY</value></data>
+  <data name="Field_Tags.Text" xml:space="preserve"><value>Tags</value></data>
+  <data name="Field_TagsHint.Text" xml:space="preserve"><value>Create new tags from Manage tags.</value></data>
+  <data name="Field_NotesInput.Header" xml:space="preserve"><value>Notes</value></data>
+  <data name="Panel_OpenExisting.Content" xml:space="preserve"><value>Open</value></data>
+  <data name="Panel_Edit.Content" xml:space="preserve"><value>Edit</value></data>
+  <data name="Panel_Delete.Content" xml:space="preserve"><value>Delete</value></data>
+  <data name="Panel_Save.Content" xml:space="preserve"><value>Save</value></data>
+  <data name="Panel_Cancel.Content" xml:space="preserve"><value>Cancel</value></data>
+  <data name="App_Title" xml:space="preserve"><value>Store Manager</value></data>
+  <data name="Nav_Title_tasks" xml:space="preserve"><value>Tasks</value></data>
+  <data name="Nav_Title_followups" xml:space="preserve"><value>Follow-ups</value></data>
+  <data name="Nav_Title_payments" xml:space="preserve"><value>Payments</value></data>
+  <data name="Nav_Title_fallpico" xml:space="preserve"><value>Fall-Pico</value></data>
+  <data name="Nav_Title_reports" xml:space="preserve"><value>Reports</value></data>
+  <data name="ComingSoon_tasks" xml:space="preserve"><value>Tasks arrive in the next build step: due dates, reminders, a Kanban board and a calendar.</value></data>
+  <data name="ComingSoon_followups" xml:space="preserve"><value>Follow-ups arrive in a later build step: attempt logs, quick scheduling and WhatsApp templates.</value></data>
+  <data name="ComingSoon_payments" xml:space="preserve"><value>Payment reminders arrive in a later build step: receivables, payables, ledgers and ageing.</value></data>
+  <data name="ComingSoon_fallpico" xml:space="preserve"><value>Fall-Pico job tracking arrives in a later build step: job cards, karigar tracking and printed tokens.</value></data>
+  <data name="ComingSoon_reports" xml:space="preserve"><value>Reports arrive in a later build step.</value></data>
+  <data name="ContactType_Customer" xml:space="preserve"><value>Customer</value></data>
+  <data name="ContactType_Supplier" xml:space="preserve"><value>Supplier</value></data>
+  <data name="ContactType_Karigar" xml:space="preserve"><value>Karigar</value></data>
+  <data name="ContactType_Staff" xml:space="preserve"><value>Staff</value></data>
+  <data name="ContactType_Other" xml:space="preserve"><value>Other</value></data>
+  <data name="Sort_NameAsc" xml:space="preserve"><value>Name A–Z</value></data>
+  <data name="Sort_NameDesc" xml:space="preserve"><value>Name Z–A</value></data>
+  <data name="Sort_Newest" xml:space="preserve"><value>Newest first</value></data>
+  <data name="Sort_City" xml:space="preserve"><value>City</value></data>
+  <data name="Filter_Tags" xml:space="preserve"><value>Tags</value></data>
+  <data name="Filter_TagsSelected" xml:space="preserve"><value>Tags ({0})</value></data>
+  <data name="Contacts_Count" xml:space="preserve"><value>{0} contacts</value></data>
+  <data name="Bulk_Selected" xml:space="preserve"><value>{0} selected</value></data>
+  <data name="Toast_Deleted" xml:space="preserve"><value>{0} contact(s) deleted</value></data>
+  <data name="Toast_Undo" xml:space="preserve"><value>Undo</value></data>
+  <data name="Toast_RestoreSkipped" xml:space="preserve"><value>{0} contact(s) could not be restored because their mobile number is now used by another contact.</value></data>
+  <data name="Toast_Tagged" xml:space="preserve"><value>Tag added to {0} contact(s)</value></data>
+  <data name="Toast_Untagged" xml:space="preserve"><value>Tag removed from {0} contact(s)</value></data>
+  <data name="Toast_ImportUnsupported" xml:space="preserve"><value>This file type is not supported. Use .xlsx, .csv or .vcf.</value></data>
+  <data name="Toast_ImportUnreadable" xml:space="preserve"><value>The file could not be read. Check that it is not open in another program.</value></data>
+  <data name="Toast_Imported" xml:space="preserve"><value>{0} contacts imported</value></data>
+  <data name="Toast_Exported" xml:space="preserve"><value>{0} contacts exported</value></data>
+  <data name="Toast_DemoLoaded" xml:space="preserve"><value>{0} demo contacts added</value></data>
+  <data name="Toast_DemoRemoved" xml:space="preserve"><value>{0} demo contacts removed</value></data>
+  <data name="Toast_ContactSaved" xml:space="preserve"><value>{0} saved</value></data>
+  <data name="Toast_NumberCopied" xml:space="preserve"><value>Copied {0}</value></data>
+  <data name="Toast_NoAddress" xml:space="preserve"><value>This contact has no address saved.</value></data>
+  <data name="Toast_AddressCopied" xml:space="preserve"><value>Address copied</value></data>
+  <data name="Toast_TagCreated" xml:space="preserve"><value>Tag "{0}" added</value></data>
+  <data name="Toast_TagSaved" xml:space="preserve"><value>Tag "{0}" saved</value></data>
+  <data name="Toast_TagMerged" xml:space="preserve"><value>Merged into "{0}"</value></data>
+  <data name="Toast_TagDeleted" xml:space="preserve"><value>Tag deleted</value></data>
+  <data name="Panel_NewContact" xml:space="preserve"><value>New contact</value></data>
+  <data name="Panel_EditContact" xml:space="preserve"><value>Edit contact</value></data>
+  <data name="Panel_Balance" xml:space="preserve"><value>Balance</value></data>
+  <data name="Warn_MobileExists" xml:space="preserve"><value>{0} already has this mobile number.</value></data>
+  <data name="Err_NameRequired" xml:space="preserve"><value>Please enter a name.</value></data>
+  <data name="Err_MobileRequired" xml:space="preserve"><value>Please enter a mobile number.</value></data>
+  <data name="Err_MobileInvalid" xml:space="preserve"><value>Enter a valid 10-digit mobile number.</value></data>
+  <data name="Err_MobileDuplicate" xml:space="preserve"><value>This mobile number is already saved.</value></data>
+  <data name="Err_PhoneInvalid" xml:space="preserve"><value>Enter a valid phone number.</value></data>
+  <data name="Err_GstinInvalid" xml:space="preserve"><value>GSTIN must be 15 characters, e.g. 24AAACC1206D1ZM.</value></data>
+  <data name="Err_Generic" xml:space="preserve"><value>Something went wrong. Please try again.</value></data>
+  <data name="Err_TagRequired" xml:space="preserve"><value>Please enter a tag name.</value></data>
+  <data name="Err_TagInvalid" xml:space="preserve"><value>Tag name or colour is not valid.</value></data>
+  <data name="Err_TagDuplicate" xml:space="preserve"><value>A tag with this name already exists.</value></data>
+  <data name="Err_TagSystem" xml:space="preserve"><value>This is a built-in tag and cannot be changed.</value></data>
+  <data name="Err_TagSame" xml:space="preserve"><value>Pick a different tag to merge into.</value></data>
+  <data name="Err_TagNotFound" xml:space="preserve"><value>That tag no longer exists.</value></data>
+  <data name="Dialog_RemoveDemoTitle" xml:space="preserve"><value>Remove demo data?</value></data>
+  <data name="Dialog_RemoveDemoBody" xml:space="preserve"><value>Only the sample contacts are removed. Your own contacts are not touched.</value></data>
+  <data name="Dialog_Remove" xml:space="preserve"><value>Remove</value></data>
+  <data name="Dialog_Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Dialog_Close" xml:space="preserve"><value>Close</value></data>
+  <data name="Dialog_Delete" xml:space="preserve"><value>Delete</value></data>
+  <data name="Dialog_Merge" xml:space="preserve"><value>Merge</value></data>
+  <data name="Dialog_MergeTitle" xml:space="preserve"><value>Merge tags</value></data>
+  <data name="Dialog_MergeBody" xml:space="preserve"><value>Move every contact tagged "{0}" to this tag, then delete "{0}":</value></data>
+  <data name="Dialog_DeleteTagTitle" xml:space="preserve"><value>Delete tag "{0}"?</value></data>
+  <data name="Dialog_DeleteTagBody" xml:space="preserve"><value>It will be removed from {0} contact(s). The contacts themselves are kept.</value></data>
+  <data name="Import_Title" xml:space="preserve"><value>Import contacts</value></data>
+  <data name="Import_Summary" xml:space="preserve"><value>{0} contacts are ready to import. {1} rows have problems and will be skipped.</value></data>
+  <data name="Import_Button" xml:space="preserve"><value>Import {0} contacts</value></data>
+  <data name="Import_Problems" xml:space="preserve"><value>Rows with problems (first 100):</value></data>
+  <data name="Import_Row" xml:space="preserve"><value>Row {0}</value></data>
+  <data name="Import_ResultTitle" xml:space="preserve"><value>Import finished</value></data>
+  <data name="Import_Result" xml:space="preserve"><value>{0} contacts imported. {1} rows were skipped:</value></data>
+</root>

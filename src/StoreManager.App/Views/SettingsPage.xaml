@@ -1,0 +1,39 @@
+<Page x:Class="StoreManager.App.Views.SettingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:StoreManager.App">
+    <ScrollViewer>
+        <StackPanel Padding="32,24" Spacing="20" MaxWidth="720" HorizontalAlignment="Left">
+            <TextBlock x:Uid="Settings_Title" Style="{StaticResource TitleTextBlockStyle}" />
+
+            <TextBox x:Uid="Settings_StoreName" Text="{x:Bind ViewModel.StoreName, Mode=TwoWay}" LostFocus="StoreName_LostFocus" />
+
+            <ComboBox x:Uid="Settings_Theme" MinWidth="240"
+                      ItemsSource="{x:Bind ViewModel.ThemeOptions}" DisplayMemberPath="Label"
+                      SelectedItem="{x:Bind ViewModel.SelectedTheme, Mode=TwoWay}" />
+
+            <StackPanel Spacing="8">
+                <ComboBox x:Uid="Settings_Language" MinWidth="240"
+                          ItemsSource="{x:Bind ViewModel.LanguageOptions}" DisplayMemberPath="Label"
+                          SelectedItem="{x:Bind ViewModel.SelectedLanguage, Mode=TwoWay}" />
+                <InfoBar x:Uid="Settings_RestartInfo" Severity="Informational" IsClosable="False" IsOpen="{x:Bind ViewModel.RestartNeeded, Mode=OneWay}" />
+            </StackPanel>
+
+            <StackPanel Spacing="8">
+                <TextBlock x:Uid="Settings_DemoHeader" Style="{StaticResource BodyStrongTextBlockStyle}" />
+                <TextBlock x:Uid="Settings_DemoNote" TextWrapping="Wrap" Opacity="0.8" />
+                <StackPanel Orientation="Horizontal" Spacing="12">
+                    <Button x:Uid="Settings_LoadDemo" Command="{x:Bind ViewModel.LoadDemoCommand}"
+                            Visibility="{x:Bind local:Fx.NotVis(ViewModel.DemoLoaded), Mode=OneWay}" />
+                    <Button x:Uid="Settings_RemoveDemo" Click="RemoveDemo_Click"
+                            Visibility="{x:Bind local:Fx.Vis(ViewModel.DemoLoaded), Mode=OneWay}" />
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel Spacing="4">
+                <TextBlock x:Uid="Settings_DataFolder" Style="{StaticResource BodyStrongTextBlockStyle}" />
+                <TextBlock x:Name="DataFolderText" IsTextSelectionEnabled="True" Opacity="0.8" TextWrapping="Wrap" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

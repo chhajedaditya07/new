@@ -1,0 +1,25 @@
+<Page x:Class="StoreManager.App.Views.DashboardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:StoreManager.App">
+    <ScrollViewer>
+        <StackPanel Padding="32,24" Spacing="20" MaxWidth="1100" HorizontalAlignment="Left">
+            <TextBlock Text="{x:Bind ViewModel.Greeting, Mode=OneWay}" Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock x:Uid="Dashboard_Note" TextWrapping="Wrap" Opacity="0.8" />
+
+            <StackPanel Orientation="Horizontal" Spacing="12">
+                <Button x:Uid="Dashboard_QuickContact" Click="QuickContact_Click" Style="{StaticResource AccentButtonStyle}" MinHeight="40" />
+                <Button x:Uid="Dashboard_OpenContacts" Click="OpenContacts_Click" />
+            </StackPanel>
+
+            <Border Padding="20" CornerRadius="8" MaxWidth="360" HorizontalAlignment="Left"
+                    Background="{ThemeResource CardBackgroundFillColorDefaultBrush}"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}" BorderThickness="1">
+                <StackPanel Spacing="4">
+                    <TextBlock x:Uid="Dashboard_ContactsCard" Style="{StaticResource BodyStrongTextBlockStyle}" />
+                    <TextBlock Text="{x:Bind ViewModel.ContactCountText, Mode=OneWay}" Style="{StaticResource SubtitleTextBlockStyle}" />
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

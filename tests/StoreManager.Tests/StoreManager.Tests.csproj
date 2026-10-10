@@ -23,6 +23,7 @@
     <ProjectReference Include="..\..\src\StoreManager.Core\StoreManager.Core.csproj" />
     <ProjectReference Include="..\..\src\StoreManager.Data\StoreManager.Data.csproj" />
     <ProjectReference Include="..\..\src\StoreManager.Services\StoreManager.Services.csproj" />
+    <ProjectReference Include="..\..\src\StoreManager.ViewModels\StoreManager.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>
