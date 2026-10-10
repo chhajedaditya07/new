@@ -10,7 +10,8 @@ using StoreManager.Core.Entities;
 using StoreManager.Data;
 using StoreManager.ViewModels.Infrastructure;
 using Windows.Graphics;
-using Windows.System;
+using VirtualKey = Windows.System.VirtualKey;
+using VirtualKeyModifiers = Windows.System.VirtualKeyModifiers;
 
 namespace StoreManager.App;
 
