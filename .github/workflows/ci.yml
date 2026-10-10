@@ -28,6 +28,22 @@ jobs:
       - name: Publish self-contained app
         run: dotnet publish src/StoreManager.App -c Release -r win-x64 --self-contained -o publish/StoreManager
 
+      - name: Smoke test (start the published app and check it stays up and creates its database)
+        shell: pwsh
+        run: |
+          $data = Join-Path $PWD "smoke-data"
+          $env:STOREMANAGER_DATA = $data
+          $p = Start-Process -FilePath "publish\StoreManager\StoreManager.exe" -PassThru
+          Start-Sleep -Seconds 25
+          $failed = $false
+          if ($p.HasExited) { Write-Host "::error::App exited early with code $($p.ExitCode)"; $failed = $true }
+          else { Write-Host "App still running after 25s (window title: '$($p.MainWindowTitle)')" }
+          if (-not (Test-Path (Join-Path $data "store.db"))) { Write-Host "::error::store.db was not created"; $failed = $true }
+          else { Write-Host "store.db created: $((Get-Item (Join-Path $data 'store.db')).Length) bytes" }
+          Get-ChildItem (Join-Path $data "logs") -ErrorAction SilentlyContinue | ForEach-Object { Write-Host "---- $($_.Name)"; Get-Content $_.FullName }
+          if (-not $p.HasExited) { Stop-Process -Id $p.Id -Force }
+          if ($failed) { exit 1 }
+
       - name: Upload app (unzip and run StoreManager.exe)
         uses: actions/upload-artifact@v4
         with:
